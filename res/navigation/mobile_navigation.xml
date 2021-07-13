@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_shopping_requests">
+
+    <fragment
+        android:id="@+id/navigation_shopping_requests"
+        android:name="pcruz.dev.personalshopper.ui.SearchFragment"
+        android:label="@string/title_shopping_requests"
+        tools:layout="@layout/fragment_customer_requests" />
+
+    <fragment
+        android:id="@+id/navigation_active_request"
+        android:name="pcruz.dev.personalshopper.ui.ActiveRequestFragment"
+        android:label="@string/title_active_request"
+        tools:layout="@layout/fragment_active_request" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="pcruz.dev.personalshopper.ui.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history" />
+</navigation>

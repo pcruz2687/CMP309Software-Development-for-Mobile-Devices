@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#17608a</color>
+    <color name="colorPrimaryDark">#00305c</color>
+    <color name="colorAccent">#DCA000</color>
+
+    // Global Colours
+    <color name="dark_grey_text">#444547</color>
+    <color name="light_grey_text">#6F7173</color>
+    <color name="white_text">#ffffff</color>
+    <color name="black_text">#000000</color>
+    <color name="light_green">#23AF4E</color>
+    <color name="orange">#DCA000</color>
+
+    // Account Settings
+    <color name="background">#17608a</color>
+    <color name="account_type">#FAD804</color>
+    <color name="change_account_type">#83718C</color>
+    <color name="start_shopping">#23AF4E</color>
+    <color name="sign_out">#D33A3A</color>
+
+    // Requests List
+    <color name="button">#ffffff</color>
+    <color name="button_text">#3AD369</color>
+    <color name="item_background">#FFFFFF</color>
+    <color name="button_select_shopper">#731C9C</color>
+    <color name="button_select_customer">#731C9C</color>
+
+    // Active Request
+    <color name="button_finish_request">#3AD369</color>
+
+    // Bottom Navigation Icon
+    <color name="bottom_navigation_icon">#3AD369</color>
+</resources>
